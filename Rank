@@ -1,0 +1,40 @@
+
+import java.util.Random;
+import java.util.Scanner;
+
+import javax.sound.midi.Soundbank;
+
+
+
+public class problems {
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter your Division");
+         int div = sc.nextInt(0);
+        switch(div) {
+            case 1:
+            System.out.println("First");
+            break;
+
+            case 2:
+            System.out.println("Second");
+            break;
+
+            case 3:
+            System.out.println("Third");
+            break;
+
+            default  :
+            System.out.println(" NO RANK , Work Hard ");
+            break;
+
+        }
+
+
+    
+    }
+
+    
+
+       
+}
