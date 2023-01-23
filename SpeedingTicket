@@ -1,0 +1,42 @@
+
+import java.util.Random;
+import java.util.Scanner;
+
+import javax.sound.midi.Soundbank;
+
+
+
+public class problems {
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+       System.out.println("Enter Speed : ");
+       int speed = sc.nextInt();
+
+
+       System.out.println("Today is your Birthday : ");
+       boolean bd = sc.nextBoolean();
+
+       if (bd== true);
+       
+       { 
+        speed = speed-5;
+       }
+
+       if(speed>80)
+       System.out.println(" HIgh Ticket ");
+       else if (speed>=60)
+       System.out.println(" Mid Ticket");
+else 
+System.out.println(" No Ticket");
+    
+    }
+
+    
+
+       
+}
+
+    
+
+       
+
