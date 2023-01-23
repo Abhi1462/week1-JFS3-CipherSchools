@@ -11,11 +11,11 @@ public class problems {
         bp=in.nextDouble();
         if(bp>=5000){
             HRA = 0.1*bp;
-            DA = 20*bp/100;
+            DA = 0.2*bp/100;
 
         } else {
-            HRA = 20*bp/100;
-            DA = 30*bp/100;
+            HRA = 0.2*bp/100;
+            DA = 0.3*bp/100;
 
         }
         GP=bp+HRA+DA;
