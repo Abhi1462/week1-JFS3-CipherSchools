@@ -1,0 +1,26 @@
+
+import java.util.Random;
+import java.util.Scanner;
+import javax.sound.midi.Soundbank;
+
+
+
+public class problems {
+    public static void main(String[] args) {
+        System.out.println("How Long is your Burp");
+       Scanner sc = new Scanner(System.in);
+       int bl = sc.nextInt();
+        
+        String msg="";
+       for(int i =1; i<=bl ; i++) {
+        msg = msg+"r";
+       }
+       System.out.println("Bu"+msg+"p");
+
+    
+    }
+
+    
+
+       
+}
