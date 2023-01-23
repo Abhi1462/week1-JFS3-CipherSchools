@@ -1,0 +1,29 @@
+
+import java.util.Random;
+import java.util.Scanner;
+
+import javax.sound.midi.Soundbank;
+
+
+
+public class problems {
+    public static void main(String[] args) {
+        char ch='A';
+        while (ch<=90) {
+            System.out.print(ch+" ");
+            ch++;
+        }
+        char ch1='A';
+        do {
+            System.out.println(ch+" ");
+            ch++;
+        } while (ch<='Z');
+
+
+    
+    }
+
+    
+
+       
+}
