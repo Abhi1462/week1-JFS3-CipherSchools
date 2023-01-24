@@ -1,0 +1,45 @@
+
+import java.util.Random;
+import java.util.Scanner;
+
+import javax.sound.midi.Soundbank;
+
+
+
+public class problems {
+    public static void main(String[] args) {
+      Amazon customer = new Amazon();
+      float payableAmt = customer.Transaction(7000);
+      System.out.println(" Total Payable " + payableAmt);
+
+    }
+
+}
+ class Amazon {
+    float Transaction(float amt) {
+        Gpay gpay = new Gpay();
+        gpay.settxnCharge((0.07f));
+        
+        float totalAmt = amt + (amt * gpay.gettxnCharge());
+        return totalAmt;
+
+    }
+ }
+  class Gpay {
+    private float txnCharge=0.05f;
+    public void settxnCharge (float newChrg) {
+        if(newChrg<=0.05f){
+            System.out.println(" Invalid Charges");
+            return;
+        }
+        txnCharge = newChrg;
+    }
+    public float gettxnCharge() {
+        return txnCharge;
+    }
+  }
+
+    
+
+       
+
